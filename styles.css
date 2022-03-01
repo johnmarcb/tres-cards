@@ -1,0 +1,54 @@
+body {
+  font-family: "Roboto";
+  color: white;
+  fill: white;
+}
+svg {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+a,
+.arrow {
+  text-decoration: none;
+  color: white;
+  fill: white;
+}
+a:hover,
+.arrow:hover {
+  color: rgba(0, 0, 0, 0.681);
+  fill: rgba(0, 0, 0, 0.681);
+  transition: 0.5s;
+}
+.arrow {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+}
+.card-container {
+  margin: 1rem;
+  box-shadow: 4px 4px 4px #000000;
+  border-radius: 15px;
+  background-color: rgb(66 103 178);
+  display: flex;
+  column-gap: 1rem;
+  display: grid;
+  align-items: center;
+  width: 15rem;
+  height: 8.5rem;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+.card-container:hover {
+  background-color: rgba(66, 103, 178, 0.462);
+  transition: 0.4s;
+}
+.bottom {
+  grid-column: span 2;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
