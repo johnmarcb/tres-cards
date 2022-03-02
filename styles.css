@@ -23,9 +23,12 @@ a:hover,
   width: 1.5rem;
   height: 1.5rem;
 }
-main {
+.main {
+  border: solid 1px blue;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  margin: auto;
+  padding: 1rem;
 }
 .card-container {
   margin: 1rem;
