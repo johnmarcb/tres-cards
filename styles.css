@@ -24,13 +24,13 @@ a:hover,
   height: 1.5rem;
 }
 .main {
+  justify-content: center;
   border: solid 1px blue;
   /* display: grid; */
   /* grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); */
   display: flex;
   flex-wrap: wrap;
   padding: 1rem;
-  width: 100%;
 }
 .card-container {
   margin: 1rem;
