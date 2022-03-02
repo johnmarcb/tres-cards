@@ -25,10 +25,12 @@ a:hover,
 }
 .main {
   border: solid 1px blue;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-  margin: auto;
+  /* display: grid; */
+  /* grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); */
+  display: flex;
+  flex-wrap: wrap;
   padding: 1rem;
+  width: 100%;
 }
 .card-container {
   margin: 1rem;
